@@ -9,10 +9,16 @@ p {
 }
 
 /* center a image */
+.image-container {
+  display: flex;
+}
 .image {
   display: block;
-  height: 200px;
+  width: 40%;
+  max-height: 400px;
+  max-width: 200px;
   border-radius: 5%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
 }
